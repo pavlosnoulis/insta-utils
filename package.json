@@ -14,8 +14,13 @@
     }
   },
   "type": "module",
-  "keywords": ["instashop"],
+  "keywords": [
+    "instashop"
+  ],
   "devDependencies": {
     "esbuild": "0.20.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

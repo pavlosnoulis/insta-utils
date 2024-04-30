@@ -1,7 +1,7 @@
-import path from "node:path";
+import {
+  getClientHttpInstadata,
+  parseBody,
+  makeHref,
+} from "./src/getClientHttpInstadata.js";
 
-const yolo = () => {
-  console.log(path.join("/one/", "two"));
-};
-
-export { yolo };
+export { getClientHttpInstadata, parseBody, makeHref };
