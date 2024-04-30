@@ -12,10 +12,10 @@ import { join } from "node:path";
 /**
  * @param {string} origin
  * @param {object} options
- * @param {string} options.installationId - if missing try process.env
- * @param {string} options.instashopSessionToken - if missing try process.env
- * @param {string} options.parseSessionToken - if missing try process.env
- * @param {string} options.hrUserId - if missing try process.env
+ * @param {string} options.installationId - if missing try process.env.INSTALLATION_ID
+ * @param {string} options.instashopSessionToken - if missing try process.env.INSTASHOP_SESSION_TOKEN
+ * @param {string} options.parseSessionToken - if missing try process.env.PARSE_SESSION_TOKEN
+ * @param {string} options.hrUserId - if missing try process.env.HR_USER_ID
  *
  * @example
  * const client = getClientHttpInstadata('localhost:5000')
