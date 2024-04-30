@@ -1,0 +1,21 @@
+{
+  "name": "insta-utils",
+  "version": "1.0.0",
+  "description": "Usefull utilities for developing software at instashop.",
+  "author": "pavlos noulis <pavlos.noulis@instashop.ae>",
+  "repository": "github:pavlosnoulis/insta-utils",
+  "scripts": {
+    "install": "npx esbuild index.js --bundle --platform=node --packages=external --outfile=dist/out.js --format=esm || echo 'Missing esbuild'; npx esbuild index.js --bundle --platform=node --packages=external --outfile=dist/out.cjs --format=cjs"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/out.js",
+      "require": "./dist/out.cjs"
+    }
+  },
+  "type": "module",
+  "keywords": ["instashop"],
+  "devDependencies": {
+    "esbuild": "0.20.2"
+  }
+}
