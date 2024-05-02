@@ -44,13 +44,12 @@ function getClientHttpInstadata(origin, options) {
   options.instashopSessionToken ||= process.env.INSTASHOP_SESSION_TOKEN;
   options.parseSessionToken ||= process.env.PARSE_SESSION_TOKEN;
   options.hrUserId ||= process.env.HR_USER_ID;
+
   if (
-    !(
-      options.installationId &&
-      options.instashopSessionToken &&
-      options.parseSessionToken &&
-      options.hrUserId
-    )
+    !options.installationId ||
+    !options.instashopSessionToken ||
+    !options.parseSessionToken ||
+    !options.hrUserId
   ) {
     throw new TypeError(
       `Invalid argument 'options:${JSON.stringify(options)}'`,

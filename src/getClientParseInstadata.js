@@ -19,7 +19,10 @@ function getClientParseInstadata(options) {
   options.masterKey = options.masterKey || process.env.PARSE_MASTER_KEY;
 
   if (
-    !(options.serverUrl && options.appId && options.jsKey && options.masterkey)
+    !options.serverUrl ||
+    !options.appId ||
+    !options.jsKey ||
+    !options.masterKey
   ) {
     throw new TypeError(
       `Invalid argument 'options:${JSON.stringify(options)}'`,
