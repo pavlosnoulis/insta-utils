@@ -69,7 +69,7 @@ function getClientHttpInstadata(origin, options) {
   };
 
   const client = {};
-  client.get = (path, options) =>
+  client.get = (path, options = {}) =>
     ensureAsync()
       .then(() => makeHref([origin, path], options.query))
       .then((href) =>
@@ -80,8 +80,7 @@ function getClientHttpInstadata(origin, options) {
         }),
       )
       .then(parseResponse)
-      .then(parseInstashopResponse)
-      .then(parseBody);
+      .then(parseInstashopResponse);
 
   client.post = async (path, body, options) =>
     ensureAsync()
@@ -99,8 +98,7 @@ function getClientHttpInstadata(origin, options) {
         }),
       )
       .then(parseResponse)
-      .then(parseInstashopResponse)
-      .then(parseBody);
+      .then(parseInstashopResponse);
 
   client.put = (path, body, options) =>
     client.post(path, body, { ...options, method: "PUT" });
@@ -148,24 +146,24 @@ function ensureAsync() {
   return Promise.resolve();
 }
 
-function parseResponse(res) {
+async function parseResponse(res) {
   if (res.status >= 200 && res.status < 300) return res;
   const err = new Error(
     `Request to '${res.url}' failed with: '${res.status}:${res.statusText}'`,
   );
   err.name = res.statusText;
-  err.response = res;
+  err.response = await parseBody(res);
   throw err;
 }
 
 async function parseInstashopResponse(res) {
-  if (res.success) return res;
   const body = await parseBody(res);
+  if (body.success) return body;
   const err = new Error(
     `Request to '${res.url}' failed with: '${body.message}'`,
   );
   err.name = res.statusText;
-  err.response = res;
+  err.response = body;
   throw err;
 }
 
