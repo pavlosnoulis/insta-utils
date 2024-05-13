@@ -21,6 +21,7 @@
     "esbuild": "0.20.2"
   },
   "dependencies": {
+    "js_utils": "github:pnoulis/js_utils",
     "mongodb": "^6.5.0",
     "node-fetch": "^3.3.2",
     "parse": "^5.0.0"
