@@ -5,9 +5,12 @@ const USER_NAME = "pavlos noulis";
 
 const permap = {
   permissions: {
+    // object
     pages: new Map(),
+    // object
     tabs: new Map(),
   },
+  // object
   extraPermissions: new Map([
     ["productsWithSubstitutionsAndTotalProducts", { from: null, to: true }],
     ["mtd_shopLaunched", { from: null, to: true }],
@@ -64,6 +67,8 @@ const permap = {
     ["canAccessIP", { from: null, to: true }],
     ["editOrderCoupons", { from: null, to: true }],
   ]),
+
+  // array
   dashboardPermissions: {
     from: {},
     to: [
@@ -439,10 +444,13 @@ const permap = {
       },
     ],
   },
+  // boolean
   needsApproval: {
     from: null,
     to: false,
   },
+
+  // array
   countries: {
     from: [],
     to: [
@@ -500,16 +508,17 @@ async function main() {
   await makeDashboardPerm(permap, tblDashboardPermissions, user);
 }
 
-function makePagesPerm(permap, user) {
+function makePagesPerm(from, to) {
   // Permissions.pages
-  for (const page of Object.entries(user.permissions.pages)) {
-    permap.pages.set(page[0], { from: page[1], to: true });
+  for (const [perm, v] of Object.entries(from)) {
+    perms.set(k, { from: v, to: true });
   }
 }
-function makeTabsPerm(permap, user) {
+
+function makeTabsPerm(tabs) {
   // Permissions.tabs
-  for (const tab of Object.entries(user.permissions.tabs)) {
-    permap.tabs.set(tab[0], { from: tab[1], to: true });
+  for (const [k, v] of Object.entries(tabs)) {
+    tabs.set(k, { from: v, to: true });
   }
 }
 async function makeCountriesPerm(permap, datasource, user) {
