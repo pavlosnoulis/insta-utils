@@ -8,7 +8,7 @@ const client = getClientHttpInstadata("http://localhost:5000", {
 });
 
 try {
-  const res = await client.get("dashboard-rest/messages");
+  const res = await client.get("dashboard-rest/permissions");
   console.log(res);
 } catch (err) {
   console.log(err);

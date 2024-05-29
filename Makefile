@@ -6,4 +6,4 @@ SHELL:=/usr/bin/bash
 .SECONDEXPANSION:
 
 run:
-	set -a; source ./.env && node $(file)
+	set -a; source ./.env && node $(file) $(args)

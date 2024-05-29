@@ -60,7 +60,7 @@ async function main() {
   }
 }
 
-const optionsSchema = {
+export const optionsSchema = {
   help: {
     long: "--help",
     short: "-h",
@@ -100,14 +100,31 @@ const optionsSchema = {
   },
 };
 
-function usage() {}
-function getopts() {}
-function merge() {}
-function getDefaultPerms() {}
-function getFilePerms() {}
-function getUserPerms() {}
-function getCanonicalPerms() {}
-function joinPerms() {
+export function usage() {}
+export function getopts() {}
+export function merge() {}
+export function getDefaultPerms() {
+  return {
+    permissions: {
+      pages: {},
+      tabs: {},
+    },
+    extraPermissions: {},
+    dashboardPermissions: {},
+    needsApproval: true,
+    countries: [
+      {
+        __type: "Pointer",
+        className: "DashboardCountries",
+        objectId: "YD2EEMGO8r",
+      },
+    ],
+  };
+}
+export function getFilePerms() {}
+export function getUserPerms() {}
+export function getCanonicalPerms() {}
+export function joinPerms() {
   const permap = new Map();
   for (const [k, v] of Object.entries(merge(from_perms, to_perms))) {
     switch (k) {
@@ -121,6 +138,6 @@ function joinPerms() {
     }
   }
 }
-function humanPerms() {}
-function getclinput() {}
-function updateUserPerms() {}
+export function humanPerms() {}
+export function getclinput() {}
+export function updateUserPerms() {}

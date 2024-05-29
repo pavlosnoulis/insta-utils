@@ -1,0 +1,372 @@
+console.log(JSON.stringify([
+    {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "CmA9q99UTf",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "kp41wgK0Jg",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "YJsrLBkG41",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "XCGU2DzPv0",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "V62PTRZDE9",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "7WJSEEQ3F6",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "F238YyyA6t",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "mVGNGMwSs6",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "xNAsEbgF2g",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "qx8XQ1iZS4",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "DxkqMn2EIl",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "qZ84clhxH3",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "B4NMPfcqoA",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "ScCschejUR",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "CQCxI2l1rH",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "UTWDNvm1aS",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "yqBFLNQ6Yi",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "RDHIgbm5tb",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "8ra9KE8Hb4",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "uTwcDyCwJC",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "CFpmxx0xcC",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "XHhvcc3JMM",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "OnLqg5D40y",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "S1luMykUt1",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Q7xwwzzJvP",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "j5pV5py85p",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "thRozRDMna",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "1DYPoBNOfY",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Fj6il2DRqk",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "WgbnqNO7dg",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "HlnrvxqrV4",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Kbxj0jteGK",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "xD1RPkDmu5",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "wxJoCDoayg",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "vVyJ9iCy3A",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "oT9y1Lac3z",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "8upmGxsYcM",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "5WMI6Ih5Nr",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "0x3oqD4HOJ",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "XGYdqK4S0Z",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "DvmVeKgS1D",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "7D0ItuP3eD",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "B8tcJIWfEs",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "AfaWEMMhXC",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "TaTE15bdYj",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "NUuBy6NaI0",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "gMfyPAX6VX",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "SKjEaLl9N4",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "95hJFBtzNj",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "vwEtm3HU3u",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "MPttPjkoAd",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Y2yZfninp0",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "pRxQCAf7Nl",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Yqg3Be4byJ",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "4a0fnsFfsH",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "p5vlcMs79d",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "L4CrLiDaxw",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Rl8Y7D3ZiL",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "Rcw1yF2wOm",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "HInekaXrxN",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "KKMPziBiCd",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "CFpmxx0xcC",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "33KweY5GCE",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "O4E8MttwWc",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "NvbFIFUn7c",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "iQOClyfOam",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "HYFtQZmYZj",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "u0wHYkWGyK",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "OcgsQeFI81",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "j8y8EjDfGS",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "fKqy4VvOYk",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "jXqvua5ALM",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "75cgkhOIOW",
+      },
+      {
+        __type: "Pointer",
+        className: "DashboardPermissions",
+        objectId: "nU2gdKvDEG",
+      },
+]));

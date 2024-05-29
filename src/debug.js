@@ -8,9 +8,7 @@ function debug(heading) {
   }
 
   return (...args) => {
-    args.forEach((arg) =>
-      console.dir(arg, { depth: null, colors: true, showHidden: false }),
-    );
+    args.forEach((arg) => console.dir(arg, { depth: null, showHidden: false }));
 
     heading && console.log(`# end ${heading}`);
     return debug;
